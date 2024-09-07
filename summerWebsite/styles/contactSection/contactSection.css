@@ -1,0 +1,93 @@
+.contactSection {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contactSection .formDetail h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.80px;
+}
+
+.contactSection .formDetail .underLine {
+    border: 0.8px solid;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(120, 67, 233);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.contactSection .formInfo {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 550px;
+    border-radius: 5px;
+    padding: 20px 60px 20px 60px;
+    background-color: white;
+}
+
+.contactSection .formInfo .formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactSection .formInfo .formWrapper .Name .input1,
+.contactSection .formInfo .formWrapper .email .input2,
+.contactSection .formInfo .formWrapper .message .input3 {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 12px 17px 12px 17px;
+    font-size: 17px;
+}
+
+.contactSection .formInfo .formWrapper .Name span,
+.contactSection .formInfo .formWrapper .email span,
+.contactSection .formInfo .formWrapper .message span {
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2.4;
+
+}
+
+.contactSection .formInfo .formWrapper .message .input3 {
+    height: 180px;
+}
+
+.contactSection .formInfo .formButton {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.contactSection .formInfo .formButton button {
+    background-color: rgb(120, 67, 233);
+    padding: 12px 33px 12px 33px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 13px 0px rgb(6 5 5 / 70%);
+    cursor: pointer;
+    transition: transform(0.1s);
+}
+
+.contactSection .formInfo .formButton span {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contactSection .formInfo .formButton button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,16 @@
+@media(max-width:600px) {
+    .navigation {
+        width: 100%;
+        padding: 0;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .myName .myImg {
+        padding: 10px 0 10px 0;
+        margin-right: 100px;
+        text-align: center;
+    }
+}
